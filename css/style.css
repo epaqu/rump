@@ -202,18 +202,18 @@ a {
 }
 
 #intro_title {
-	margin: 3vh 3vh 2vh 3vh;
+	margin: 3vh 3vh 2vh 2vh;
 	font-size: 6vh;
 	font-family: "Luckiest Guy", sans-serif;
 }
 #intro_body {
-	margin: 2vh 3vh 5vh 2vh;
+	margin: 2vh 3vh 5vh 3vh;
 	font-size: 3vh;
 	font-family: "Luckiest Guy";
 	color: var(--basic-color);
 }
 #points{
-	margin: 3vh 3vh 2vh 3vh;
+	margin: 3vh 3vh 2vh 2vh;
 	font-size: 2vh;
 	font-family: "Lato";
 	color: var(--basic-color);
@@ -332,9 +332,9 @@ a {
 	}
 	
 	.intro__text {
-		margin: 5vw 5vw 5vw 5vw;
+		margin: 12vw 5vw 5vw 5vw;
 		width: 90vw;
-		height: 70vh;
+		height: 60vh;
 	}
 	.left_container {
 		width: 100vw;
@@ -359,18 +359,18 @@ a {
 	}
 	#intro_title {
 		font-size: 6vw;
-		margin: 1vh 3vw 1vh 3vw;
-	}
-	
-	#intro_body{
 		margin: 1vh 3vw 1vh 2vw;
 	}
 	
-	#points{
+	#intro_body{
 		margin: 1vh 3vw 1vh 3vw;
 	}
+	
+	#points{
+		margin: 1vh 3vw 1vh 2vw;
+	}
 	.whitepaper {
-		height: 50vh;
+		height: 70vh;
 	}
 	.whitepaper_title {
 		font-size: 10vw;
