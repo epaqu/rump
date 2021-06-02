@@ -1,0 +1,398 @@
+:root {
+	--text-color: #b35f44;
+	--background-color: #f0e3ce;
+	--accent-color: #f4f4f4;
+	--accent-color2: #e0b589;
+	--accent-color3: #96999b;
+	--basic-color: #434852;
+	--special-color: #feae51;
+}
+
+body {
+	margin: 0;
+	background-color: var(--background-color);
+	font-family: "Kanit", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: var(--text-color);
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: transparent;
+	padding: 1px 12px;
+}
+
+.navbar__logo {
+	font-family: "Underdog", sans-serif;
+	font-size: 30px;
+	color: var(--accent-color);
+}
+
+.navbar__logo i {
+	color: var(--text-color);
+}
+
+.navbar__menu {
+	display: flex;
+	list-style: none;
+	padding-left: 0;
+}
+
+.navbar__menu li {
+	padding: 8px 12px;
+}
+
+.menu__items:hover {
+	color: var(--accent-color);
+	
+}
+
+.navbar__icons {
+	list-style: none;
+	color: var(--accent-color);
+	display: flex;
+	padding-left: 0;
+	
+}
+
+.navbar__icons li {
+	padding : 8px 12px;
+	color: var(--text-color);
+}
+
+.navbar__icons li:hover {
+	color: var(--accent-color);
+}
+.navbar__toggleBtn {
+	display: none;
+	position: absolute;
+	right: 32px;
+	font-size: 24px;
+	color : var(--text-color);
+}
+
+.main__title {
+	text-align: center;
+	font-size: 8vh;
+	font-family: "Girassol";
+	color: var(--accent-color2);
+	margin-top: 1vh;
+}
+
+.main__logo {
+	display: flex;
+	justify-content : center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#main__logo {
+	align-items: center;
+	display: flex;
+	height: 30vh;
+}
+
+.paws {
+	display: flex;
+	justify-content : center;
+	align-items: center;
+	flex-direction: column;
+	border-style: none none solid none;
+	border-color: var(--text-color);
+	border-width: 5px;
+	object-fit: cover;
+}
+
+#paws {
+	width: 90vh;
+}
+
+.contract {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	background: transparent;
+	border: none;
+	font-size: 2vh;
+	color: var(--text-color);
+}
+
+#contract:hover {
+	color: var(--accent-color);
+}
+
+.description_1 {
+	display: flex;
+	justify-content : center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	font-size: 2vh;
+	line-height: 3vh;
+	color: var(--basic-color);
+	height: auto;
+}
+
+.description_2 {
+	font-family: "Underdog", sans-serif;
+	display: flex;
+	justify-content : center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	font-size: 4vh;
+	line-height: 0vh;
+}
+
+.intro {
+	background-color: var(--accent-color);
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	border-style: none none solid none;
+	border-color: var(--text-color);
+	border-width: 5px;
+}
+
+.left_container {
+	width: 40%;
+}
+
+.intro__text {
+	height: 68%;
+	display: flex;
+	border-style: solid;
+	border-radius: 15px;
+	border-color: var(--accent-color2);
+	color: var(--text-color);
+	flex-direction: column;
+	margin: 80px 50px 50px 100px;
+}
+
+.intro__img {
+	display: flex;
+	justify-content : center;
+	align-items: center;
+	width: 60%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.intro_footnote {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	flex-direction: row;
+	font-size: 1.4vh;
+	margin: 10vh 0vh 0vh 0vh;
+}
+
+#intro_img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#intro_title {
+	margin: 3vh 3vh 2vh 3vh;
+	font-size: 6vh;
+	font-family: "Luckiest Guy", sans-serif;
+}
+#intro_body {
+	margin: 2vh 3vh 5vh 2vh;
+	font-size: 3vh;
+	font-family: "Luckiest Guy";
+	color: var(--basic-color);
+}
+#points{
+	margin: 3vh 3vh 2vh 3vh;
+	font-size: 2vh;
+	font-family: "Lato";
+	color: var(--basic-color);
+}
+
+.whitepaper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: var(--accent-color2);
+	height: 71vh;
+	border-style: none none solid none;
+	border-color: var(--text-color);
+	border-width: 5px;
+}
+
+.whitepaper_title {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	font-size: 8vh;
+	line-height: 0vh;
+	margin: 3vh 0vh 0vh 0vh;
+	font-family: "Luckiest Guy";
+	color: var(--accent-color2);
+}
+
+.whitepaper_image {
+	display: flex;
+	justify-content : center;
+	align-items: center;
+}
+
+#whitepaper_image {
+	max-width: 100%;
+	max-height: 60vh;
+}
+
+.roadmap {
+	display: flex;
+	background-color: var(--accent-color);
+	flex-direction: column;
+	color: var(--accent-color2);
+	height: 150vh;
+}
+
+.roadmap_title {
+	display: flex;
+	font-size: 8vh;
+	margin: 5vh 0vh 5vh 8vw;
+	font-family: "Luckiest Guy";
+	color: var(--accent-color2);
+}
+
+.roadmap_image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#roadmap_image {
+	max-width: 100%;
+	max-height: 80vh;
+	border-style: solid;
+	border-width: 3px;
+	border-color: var(--accent-color3);
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+	.navbar {
+		padding: 8px 16px;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.navbar__menu {
+		display: none;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	.navbar__icons {
+		display: none;
+		justify-content: center;
+		width: 100%;
+	}
+	.navbar__toggleBtn {
+		display: block;
+	}
+	
+	.navbar__menu.active,
+	.navbar__icons.active {
+		display: flex;
+		background-color: var(--background-color);
+	}
+	
+	.navbar.active {
+		border-style: none none double none;
+		border-color: var(--accent-color2);
+	}
+	
+	.navbar__toggleBtn:hover {
+		color : var(--accent-color);
+	}
+	
+	.intro {
+		height: 120vh;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.intro__text {
+		margin: 5vw 5vw 5vw 5vw;
+		width: 90vw;
+		height: 70vh;
+	}
+	.left_container {
+		width: 100vw;
+		height: 70vh;
+	}
+	.intro__img {
+		width: 100vw;
+		align-items: center;
+	}
+	#intro_img {
+		max-width: 50vh;
+		max-height: 90vw;
+	}
+	.intro_footnote{
+		display: none;
+	}
+	#paws {
+		width: 100vw;
+	}
+	#contract {
+		font-size: 3.5vw;
+	}
+	#intro_title {
+		font-size: 6vw;
+		margin: 1vh 3vw 1vh 3vw;
+	}
+	
+	#intro_body{
+		margin: 1vh 3vw 1vh 2vw;
+	}
+	
+	#points{
+		margin: 1vh 3vw 1vh 3vw;
+	}
+	.whitepaper {
+		height: 50vh;
+	}
+	.whitepaper_title {
+		font-size: 10vw;
+		text-align: center;
+	}
+	#paw_in_title{
+		font-size: 10vw;
+	}
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 2250px){
+	#intro_title {
+		font-size: 6vh;
+		margin: 2vh 2vw 1vh 2vw;
+	}
+	
+	#intro_body{
+		margin: 2vh 3vw 1vh 3vw;
+	}
+	
+	#points{
+		margin: 2vh 3vw 1vh 2vw;
+	}
+}
