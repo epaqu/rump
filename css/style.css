@@ -384,15 +384,17 @@ a {
 
 @media screen and (min-width: 1024px) and (max-width: 2250px){
 	#intro_title {
-		font-size: 6vh;
+		font-size: 4vmin;
 		margin: 2vh 2vw 1vh 2vw;
 	}
 	
 	#intro_body{
+		font-size: 2vmin;
 		margin: 2vh 3vw 1vh 3vw;
 	}
 	
 	#points{
+		font-size: 2vmin;
 		margin: 2vh 3vw 1vh 2vw;
 	}
 }
