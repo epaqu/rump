@@ -10,7 +10,7 @@
 
 body {
 	margin: 0;
-	background-color: var(--background-color);
+	background-color: var(--text-color);
 	font-family: "Kanit", sans-serif;
 }
 
@@ -23,7 +23,7 @@ a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: transparent;
+	background-color: var(--background-color);
 	padding: 1px 12px;
 }
 
@@ -76,12 +76,15 @@ a {
 	color : var(--text-color);
 }
 
+.landing_page {
+	background-color: var(--background-color);
+}
 .main__title {
 	text-align: center;
 	font-size: 8vh;
 	font-family: "Girassol";
 	color: var(--accent-color2);
-	margin-top: 1vh;
+	margin-top: 0vh;
 }
 
 .main__logo {
@@ -94,7 +97,7 @@ a {
 #main__logo {
 	align-items: center;
 	display: flex;
-	height: 30vh;
+	height: 32vh;
 }
 
 .paws {
@@ -150,19 +153,25 @@ a {
 	font-size: 4vh;
 	line-height: 0vh;
 }
-
 .intro {
+	margin: 0 0 5px 0;
 	background-color: var(--accent-color);
 	height: 100vh;
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	flex-direction: row;
-	border-style: none none solid none;
-	border-color: var(--text-color);
-	border-width: 5px;
+	border-style: solid none solid none;
+	border-color: var(--accent-color);
+	border-width: 15vh;
 }
 
 .left_container {
 	width: 40%;
+	display: flex;
+	justify-content : center;
+	align-items: center;
+	flex-direction: column;
 }
 
 .intro__text {
@@ -182,7 +191,6 @@ a {
 	align-items: center;
 	width: 60%;
 	height: 100%;
-	display: flex;
 	flex-direction: row;
 }
 
@@ -198,7 +206,7 @@ a {
 
 #intro_img {
 	max-width: 100%;
-	max-height: 100%;
+	max-height: 60%;
 }
 
 #intro_title {
@@ -220,14 +228,17 @@ a {
 }
 
 .whitepaper {
+	margin: 0 0 5px 0;
+	background-color: var(--background-color);
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	align-items: center;
-	color: var(--accent-color2);
-	height: 71vh;
-	border-style: none none solid none;
-	border-color: var(--text-color);
-	border-width: 5px;
+	color: var(--background-color);
+	height: 91vh;
+	border-style: solid none solid none;
+	border-color: var(--);
+	border-width: 10vh;
 }
 
 .whitepaper_title {
@@ -257,7 +268,11 @@ a {
 	background-color: var(--accent-color);
 	flex-direction: column;
 	color: var(--accent-color2);
-	height: 150vh;
+	height: 100vh;
+	border-style: solid none solid none;
+	border-width: 10vh;
+	border-color: var(--accent-color);
+	margin: 0 0 5px 0;
 }
 
 .roadmap_title {
@@ -279,8 +294,8 @@ a {
 }
 
 #roadmap_image {
-	max-width: 100%;
-	max-height: 80vh;
+	max-width: 90%;
+	max-height: 70vh;
 	border-style: solid;
 	border-width: 3px;
 	border-color: var(--accent-color3);
@@ -320,7 +335,7 @@ a {
 		background-color: var(--background-color);
 	}
 	
-	.navbar.active {
+	.navbar {
 		border-style: none none double none;
 		border-color: var(--accent-color2);
 	}
@@ -388,6 +403,7 @@ a {
 	.roadmap {
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
 		align-items: center;
 	}
 	.roadmap_title {
@@ -401,7 +417,7 @@ a {
 	#roadmap_mobile{
 		display: flex;
 		max-width: 90vw;
-		max-height: 90vh;
+		max-height: 70vh;
 		border-style: solid;
 		border-width: 3px;
 		border-color: var(--accent-color3);
@@ -421,7 +437,10 @@ a {
 	}
 	
 	#points{
-		font-size: 2vmin;
+		font-size: 1.5vw;
 		margin: 2vh 3vw 1vh 2vw;
+	}
+	.intro_footnote{
+		display: none;
 	}
 }
