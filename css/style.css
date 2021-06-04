@@ -249,7 +249,7 @@ a {
 
 #whitepaper_image {
 	max-width: 100%;
-	max-height: 60vh;
+	max-height: 59vh;
 }
 
 .roadmap {
@@ -272,6 +272,10 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+#roadmap_mobile {
+	display: none;
 }
 
 #roadmap_image {
@@ -352,7 +356,7 @@ a {
 		display: none;
 	}
 	#paws {
-		width: 100vw;
+		width: 90vw;
 	}
 	#contract {
 		font-size: 3.5vw;
@@ -363,10 +367,12 @@ a {
 	}
 	
 	#intro_body{
+		font-size: 3vh;
 		margin: 1vh 3vw 1vh 3vw;
 	}
 	
 	#points{
+		font-size: 2vh;
 		margin: 1vh 3vw 1vh 2vw;
 	}
 	.whitepaper {
@@ -378,6 +384,27 @@ a {
 	}
 	#paw_in_title{
 		font-size: 10vw;
+	}
+	.roadmap {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.roadmap_title {
+		font-size: 10vw;
+		align-items: center;
+		text-align: center;
+	}
+	#roadmap_image{
+		display: none;
+	}
+	#roadmap_mobile{
+		display: flex;
+		max-width: 90vw;
+		max-height: 90vh;
+		border-style: solid;
+		border-width: 3px;
+		border-color: var(--accent-color3);
 	}
 }
 
