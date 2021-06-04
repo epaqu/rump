@@ -194,16 +194,6 @@ a {
 	flex-direction: row;
 }
 
-.intro_footnote {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	text-align: center;
-	flex-direction: row;
-	font-size: 1.4vh;
-	margin: 10vh 0vh 0vh 0vh;
-}
-
 #intro_img {
 	max-width: 100%;
 	max-height: 60%;
@@ -367,9 +357,6 @@ a {
 		max-width: 50vh;
 		max-height: 90vw;
 	}
-	.intro_footnote{
-		display: none;
-	}
 	#paws {
 		width: 90vw;
 	}
@@ -441,8 +428,5 @@ a {
 	#points{
 		font-size: 1.5vw;
 		margin: 2vh 3vw 1vh 2vw;
-	}
-	.intro_footnote{
-		display: none;
 	}
 }
