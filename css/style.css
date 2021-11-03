@@ -154,44 +154,52 @@ a {
 	line-height: 0vh;
 }
 .intro {
-	margin: 0 0 5px 0;
 	background-color: var(--accent-color);
-	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: row;
-	border-style: solid none solid none;
-	border-color: var(--accent-color);
-	border-width: 15vh;
+	flex-direction: column;
+	border-style: none none solid none;
+	border-color: var(--text-color);
+	border-width: 5px;
+	padding: 50px;
 }
 
 .left_container {
-	width: 40%;
+	width: 50%;
 	display: flex;
 	justify-content : center;
 	align-items: center;
 	flex-direction: column;
+	margin: 50px 0 50px 0;
 }
 
 .intro__text {
-	height: 68%;
 	display: flex;
+	text-align: center;
 	border-style: solid;
 	border-radius: 15px;
 	border-color: var(--accent-color2);
 	color: var(--text-color);
 	flex-direction: column;
-	margin: 80px 50px 50px 100px;
 }
 
 .intro__img {
 	display: flex;
 	justify-content : center;
 	align-items: center;
-	width: 60%;
+	width: 30%;
 	height: 100%;
 	flex-direction: row;
+}
+
+.intro_footnote {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	flex-direction: row;
+	font-size: 12px;
 }
 
 #intro_img {
@@ -200,83 +208,77 @@ a {
 }
 
 #intro_title {
-	margin: 3vh 3vh 2vh 2vh;
-	font-size: 6vh;
-	font-family: "Luckiest Guy", sans-serif;
+	margin: 1vh 2vh 1vh 2vh;
+	font-size: 80px;
+	font-family: "Girassol", sans-serif;
 }
 #intro_body {
-	margin: 2vh 3vh 5vh 3vh;
-	font-size: 3vh;
-	font-family: "Luckiest Guy";
-	color: var(--basic-color);
+	margin: 0vh 2vh 0vh 2vh;
+	font-size: 20px;
+	font-family: "Kanit";
+	color: var(--accent-color2);
 }
 #points{
-	margin: 3vh 3vh 2vh 2vh;
-	font-size: 2vh;
-	font-family: "Lato";
+	margin: 2vh 2vh 2vh 2vh;
+	font-size: 16px;
+	font-family: "Cardo";
 	color: var(--basic-color);
 }
 
 .whitepaper {
-	margin: 0 0 5px 0;
 	background-color: var(--background-color);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	color: var(--background-color);
-	height: 91vh;
-	border-style: solid none solid none;
-	border-color: var(--);
-	border-width: 10vh;
+	border-style: none none solid none;
+	border-width: 5px;
+	border-color: var(--text-color);
+	padding-top: 30px;
+	padding-bottom: 50px;
 }
 
 .whitepaper_title {
 	display: flex;
 	align-items: center;
 	text-align: center;
-	font-size: 8vh;
+	font-size: 6vh;
 	line-height: 0vh;
-	margin: 3vh 0vh 0vh 0vh;
-	font-family: "Luckiest Guy";
+	margin: 0vh 0vh 50px 0vh;
+	font-family: "Underdog";
 	color: var(--accent-color2);
 }
 
 .whitepaper_image {
-	display: flex;
-	justify-content : center;
 	align-items: center;
 }
 
 #whitepaper_image {
 	max-width: 100%;
 	max-height: 59vh;
+
 }
 
 .roadmap {
+	padding-top: 50px;
+	padding-bottom: 240px;
 	display: flex;
 	background-color: var(--accent-color);
 	flex-direction: column;
-	color: var(--accent-color2);
-	height: 100vh;
-	border-style: solid none solid none;
-	border-width: 10vh;
-	border-color: var(--accent-color);
-	margin: 0 0 5px 0;
 }
 
 .roadmap_title {
-	display: flex;
-	font-size: 8vh;
-	margin: 5vh 0vh 5vh 8vw;
-	font-family: "Luckiest Guy";
+	text-align: center;
+	font-size: 6vh;
+	font-family: "Underdog";
 	color: var(--accent-color2);
+	margin: 0 0 50px 0;
 }
 
 .roadmap_image {
 	display: flex;
 	justify-content: center;
-	align-items: center;
 }
 
 #roadmap_mobile {
@@ -335,98 +337,57 @@ a {
 	}
 	
 	.intro {
-		height: 120vh;
 		flex-direction: column;
 		align-items: center;
 	}
 	
-	.intro__text {
-		margin: 12vw 5vw 5vw 5vw;
-		width: 90vw;
-		height: 60vh;
+	.intro__text{
+		width: 80vw;
 	}
-	.left_container {
-		width: 100vw;
-		height: 70vh;
+	
+	#intro_body {
+		font-size: 20px;
 	}
+	#points{
+		font-size: 16px;
+	}
+	
 	.intro__img {
-		width: 100vw;
 		align-items: center;
 	}
 	#intro_img {
-		max-width: 50vh;
-		max-height: 90vw;
+		max-width: 50vw;
+		max-height: 50vh;
 	}
 	#paws {
 		width: 90vw;
 	}
 	#contract {
-		font-size: 3.5vw;
+		font-size: 16px;
 	}
-	#intro_title {
-		font-size: 6vw;
-		margin: 1vh 3vw 1vh 2vw;
-	}
-	
-	#intro_body{
-		font-size: 3vh;
-		margin: 1vh 3vw 1vh 3vw;
-	}
-	
-	#points{
-		font-size: 2vh;
-		margin: 1vh 3vw 1vh 2vw;
-	}
-	.whitepaper {
-		height: 70vh;
-	}
+
 	.whitepaper_title {
 		font-size: 10vw;
 		text-align: center;
 	}
+	#whitepaper_image {
+		width: 80vw;
+	}
 	#paw_in_title{
 		font-size: 10vw;
 	}
-	.roadmap {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
 	.roadmap_title {
 		font-size: 10vw;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		margin: 0 0 10vh 0;
 	}
 	#roadmap_image{
 		display: none;
 	}
 	#roadmap_mobile{
 		display: flex;
-		max-width: 90vw;
 		max-height: 70vh;
+		max-width: 90vw;
 		border-style: solid;
 		border-width: 3px;
 		border-color: var(--accent-color3);
-	}
-}
-
-
-@media screen and (min-width: 1024px) and (max-width: 2250px){
-	#intro_title {
-		font-size: 4vmin;
-		margin: 2vh 2vw 1vh 2vw;
-	}
-	
-	#intro_body{
-		font-size: 2vmin;
-		margin: 2vh 3vw 1vh 3vw;
-	}
-	
-	#points{
-		font-size: 1.5vw;
-		margin: 2vh 3vw 1vh 2vw;
 	}
 }
